@@ -1,0 +1,170 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quant practice q6a2f044dba</title>
+<style>body{font-family:system-ui,sans-serif;max-width:680px;margin:1rem auto;padding:0 1rem;line-height:1.45}.q{border:1px solid #ccc;border-radius:8px;padding:.7rem;margin:.7rem 0}.qt{white-space:pre-wrap}label{display:block;padding:.25rem 0}.ok{color:#0a6b2c;font-weight:600}.bad{color:#b00020;font-weight:600}.tag{font-size:.8rem;color:#555}button{font-size:1rem;padding:.6rem 1rem;margin:.3rem 0}#res{display:none}code{background:#eee;padding:.3rem;display:block;overflow-wrap:anywhere}</style></head><body>
+<h1>Quant practice q6a2f044dba</h1><p>10 questions &middot; level L1 &middot; about 20 to 30 minutes. Use paper for working, no calculator. Pick one answer for every question, then press Submit.</p>
+<div id="qs"></div><p id="warn" class="bad"></p><button id="sub">Submit</button>
+<div id="res"><h2 id="score"></h2><div id="rev"></div><p>Results code (copy it and paste it into your own Instinct chat):</p><code id="code"></code><button id="copy">Copy result code</button></div>
+<script>const D={
+ "id": "q6a2f044dba",
+ "date": "2026-10-27",
+ "type": "QA",
+ "level": 1,
+ "qs": [
+  {
+   "id": "V-time_work_two-47",
+   "q": "Ravi can finish a field in 18 days and Sana can finish it in 36 days. Working together, in how many days will they finish it?",
+   "o": [
+    "54 days",
+    "27 days",
+    "13 days",
+    "12 days"
+   ],
+   "a": 3,
+   "x": "Rates are 1/18 and 1/36 per day. Together 1/18 + 1/36 = 54/648, so the time is 648/54 = 12 days.",
+   "cn": "Add the work done per day (rates), not the days. Time together = (a x b)/(a + b).",
+   "sl": "Original variant of a concept (numbers and wording changed)",
+   "t": "Two workers together"
+  },
+  {
+   "id": "V-algebra_identity-47",
+   "q": "If x + y = 15 and xy = 44, what is the value of x^2 + y^2?",
+   "o": [
+    "313",
+    "225",
+    "137",
+    "181"
+   ],
+   "a": 2,
+   "x": "x^2 + y^2 = (x + y)^2 - 2xy = 15^2 - 2 x 44 = 225 - 88 = 137.",
+   "cn": "Use the identity x^2 + y^2 = (x + y)^2 - 2xy instead of finding x and y separately.",
+   "sl": "Original variant of a concept (numbers and wording changed)",
+   "t": "Square of a sum identity"
+  },
+  {
+   "id": "V-simple_interest-47",
+   "q": "What is the simple interest on Rs 9000 at 6% per year for 4 years?",
+   "o": [
+    "Rs 1620",
+    "Rs 216",
+    "Rs 2160",
+    "Rs 2700"
+   ],
+   "a": 2,
+   "x": "SI = P x R x T / 100 = 9000 x 6 x 4 / 100 = Rs 2160.",
+   "cn": "Simple interest uses the original principal every year: SI = PRT/100.",
+   "sl": "Original variant of a concept (numbers and wording changed)",
+   "t": "Simple interest amount"
+  },
+  {
+   "id": "V-compound_interest_2yr-47",
+   "q": "Find the compound interest on Rs 5000 for 2 years at 20% per year, compounded yearly.",
+   "o": [
+    "Rs 2000",
+    "Rs 2200",
+    "Rs 2400",
+    "Rs 7200"
+   ],
+   "a": 1,
+   "x": "Amount after 2 years = 5000 x 1.2 x 1.2 = Rs 7200. Compound interest = 7200 - 5000 = Rs 2200. (Simple interest would be Rs 2000.)",
+   "cn": "Compound interest grows on the new amount each year: amount = P x (1 + R/100) for each year. Interest = amount - principal.",
+   "sl": "Original variant of a concept (numbers and wording changed)",
+   "t": "Compound interest for 2 years"
+  },
+  {
+   "id": "V-probability_dice-147",
+   "q": "Two fair dice are thrown together. What is the probability that the sum of the numbers is 5? (Options are fractions out of 36.)",
+   "o": [
+    "5/36",
+    "4/36",
+    "6/36",
+    "3/36"
+   ],
+   "a": 1,
+   "x": "Total outcomes = 36. Pairs with sum 5: (1,4), (2,3), (3,2), (4,1), which is 4 outcomes. Probability = 4/36.",
+   "cn": "Probability = favourable outcomes / total outcomes. Two dice have 36 equally likely outcomes; list the pairs that give the sum.",
+   "sl": "Original variant of a concept (numbers and wording changed)",
+   "t": "Two dice, sum probability"
+  },
+  {
+   "id": "V-venn_two_sets-247",
+   "q": "In a group of 100 people, 45 like tea, 30 like coffee and 10 like both. How many like neither?",
+   "o": [
+    "35",
+    "25",
+    "45",
+    "40"
+   ],
+   "a": 0,
+   "x": "Like at least one = 45 + 30 - 10 (both counted twice) = 65. Neither = 100 - 65 = 35.",
+   "cn": "At least one = A + B - both. Neither = total - at least one.",
+   "sl": "Original variant of a concept (numbers and wording changed)",
+   "t": "Two overlapping groups"
+  },
+  {
+   "id": "V-word_arrangements-247",
+   "q": "In how many different ways can the letters of the word LEVEL be arranged?",
+   "o": [
+    "120",
+    "60",
+    "15",
+    "30"
+   ],
+   "a": 3,
+   "x": "5 letters with repeats (E and L each repeat twice): 5! divided by the repeat factorials = 30.",
+   "cn": "n distinct letters can be arranged in n! ways. Divide by the factorial of each repeated count.",
+   "sl": "Original variant of a concept (numbers and wording changed)",
+   "t": "Arrangements of letters"
+  },
+  {
+   "id": "V-l0_average-47",
+   "q": "Find the average of 38, 36, 40, 46.",
+   "o": [
+    "40",
+    "39",
+    "42",
+    "41"
+   ],
+   "a": 0,
+   "x": "Sum = 160. Number of values = 4. Average = 160 / 4 = 40.",
+   "cn": "Average = sum of the values / number of values.",
+   "sl": "Original variant of a concept (numbers and wording changed)",
+   "t": "Average of numbers (L0)"
+  },
+  {
+   "id": "V-quad_root_k-47",
+   "q": "4 is a root of x^2 - 10x + k = 0. Find k.",
+   "o": [
+    "28",
+    "10",
+    "24",
+    "18"
+   ],
+   "a": 2,
+   "x": "Put x = 4: 16 - 40 + k = 0, so k = 24. (The other root is 6, and 4 x 6 = 24.)",
+   "cn": "A root satisfies the equation. Substitute it, or use: product of roots = k, sum of roots = coefficient.",
+   "sl": "Original variant of a concept (numbers and wording changed)",
+   "t": "Using a known root of a quadratic"
+  },
+  {
+   "id": "V-mensuration_rect-47",
+   "q": "The length of a rectangle is 5 times its width. If the perimeter of the rectangle is 120 cm, what is its area?",
+   "o": [
+    "300 sq cm",
+    "500 sq cm",
+    "600 sq cm",
+    "100 sq cm"
+   ],
+   "a": 1,
+   "x": "Perimeter = 2 x (length + width) = 2 x (5w + w) = 12w = 120, so width w = 10 cm and length = 50 cm. Area = 50 x 10 = 500 sq cm.",
+   "cn": "Put length and width in terms of one letter, use the perimeter to solve, then multiply for the area.",
+   "sl": "Original variant of a concept (numbers and wording changed)",
+   "t": "Rectangle: length as a multiple of width"
+  }
+ ]
+};const L="ABCD";const qd=document.getElementById("qs");const esc=s=>String(s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+D.qs.forEach((q,i)=>{const d=document.createElement("div");d.className="q";d.innerHTML='<span class="tag">'+esc(q.t)+' &middot; Source: '+esc(q.sl)+'</span><div class="qt"><b>'+(i+1)+". "+esc(q.q)+"</b></div>"+q.o.map((o,j)=>'<label><input type="radio" name="q'+i+'" value="'+j+'"> '+L[j]+". "+esc(o)+"</label>").join("");qd.appendChild(d)});
+document.getElementById("sub").onclick=()=>{const un=D.qs.map((q,i)=>document.querySelector("input[name=q"+i+"]:checked")?0:i+1).filter(x=>x);if(un.length){document.getElementById("warn").textContent="Please answer every question before submitting. Missing: "+un.join(", ");return}document.getElementById("warn").textContent="";let s=0,a="",rv="";D.qs.forEach((q,i)=>{const c=document.querySelector('input[name=q'+i+']:checked');const v=+c.value;a+=L[v];const ok=v===q.a;if(ok)s++;
+rv+='<div class="q"><b>'+(i+1)+'.</b> <span class="'+(ok?'ok">Correct':'bad">Wrong')+'</span><br>Answer: '+L[q.a]+". "+esc(q.o[q.a])+'<div class="qt">'+esc(q.x)+"</div>"+'<div class="tag">Source: '+esc(q.sl)+'</div>'+(q.cn?'<div class="tag">Concept: '+esc(q.cn)+'</div>':'')+"</div>"});
+document.getElementById("score").textContent="Score: "+s+"/"+D.qs.length;document.getElementById("rev").innerHTML=rv;
+document.getElementById("code").textContent=(D.date>="2026-10-14"?D.type:"QL")+"|"+D.id+"|"+D.type+"|L"+D.level+"|"+s+"/"+D.qs.length+"|"+a+"|"+D.date;document.getElementById("res").style.display="block";document.getElementById("sub").disabled=true;};
+document.getElementById("copy").onclick=()=>{navigator.clipboard.writeText(document.getElementById("code").textContent);document.getElementById("copy").textContent="Copied"};
+</script></body></html>
